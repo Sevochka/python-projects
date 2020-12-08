@@ -1,5 +1,7 @@
 import random
 
+streaksNumber = 6
+
 numberOfStreaks = 0
 randNums = []
 streak = 0
@@ -15,7 +17,7 @@ for experimentNumber in range(10000):
         else:
             streak = 0
 
-        if streak == 6:
+        if streak == streaksNumber:
             numberOfStreaks += 1
     randNums = []
 
