@@ -1,5 +1,5 @@
 #! python3
-# downloadXkcd.py - Downloads every single XKCD comic.
+# download-xkcd.py - Downloads every single XKCD comic.
 import os, requests, bs4
 
 url = 'https://xkcd.com' # starting url
